@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+.container-fluid {
+  background-color: #333333;
+  color: white;
+}
+ul.list-group li.list-group-item {
+  text-decoration: none;
+  color: white;
+}
+.list-group-item a {
+  text-decoration: none;
+  color: white;
+}
+.list-group-item a:hover,
+.list-group-item a:active,
+.list-group-item a:focus {
+  text-decoration: none;
+  color: yellow;
+}
